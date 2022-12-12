@@ -1,0 +1,12 @@
+[package]
+name = "clickhouse-sql"
+version = "0.1.0"
+authors = ["Ilya Trefilov <ilya.trefilov@outlook.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+logos = "0.12.1"
+
+[dev.dependencies]
+goldenfile = "1.4.5"

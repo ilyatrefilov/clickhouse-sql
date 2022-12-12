@@ -10,4 +10,8 @@
 //! # clickhouse-sql
 //!
 //! clichouse-sql is a parser for Clickhouse database SQL dialect.
+
+mod ast;
+mod error;
+mod parser;
 mod token;
